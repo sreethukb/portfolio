@@ -1,0 +1,189 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0px;
+}
+*{
+    font-family: "Cormorant Garamond", serif;
+}
+.navbar{
+    background-color: #6482AD;
+}
+.transparent{
+    background-color: #E2DAD6;
+}
+.navbar-collapse a{
+    font-size: 1.5rem;
+    color: white;
+}
+.navbar li.nav-item{
+    margin: auto 3rem;
+}
+.navbar-collapse a.black-text {
+    color: black;
+}
+.container.hero{
+    padding-top: 5.5rem;
+    padding-bottom: 1.5rem;
+}
+.hidden{
+    opacity: 0.5;
+}
+.slide-up{
+    transform: translateY(-20%);
+    transition: 1s ease-in-out;
+}
+.hero-text{
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 500;
+    font-size: 5rem;
+}
+.container .hero-subtext{
+    font-style: italic;
+    font-size: 3.5rem;
+}
+.btn{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.25rem;
+}
+.container .btn-primary{
+    width: 11rem;
+    background-color: #7FA1C3;
+    border: none;
+}
+.btn-primary:hover{
+    background-color: #6482AD;
+}
+.container .btn-outline-secondary{
+    width: 10rem;
+    background-color: #E2DAD6;
+    color: black;
+    border: none;
+}
+.btn-outline-secondary:hover{
+    background-color: #F5EDED;
+}
+.container .hero-image img{
+    border-radius: 50%;
+}
+.color-bg{
+    background-color: #F5EDED;
+}
+#about{
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+.heading{
+    font-family: "Cormorant Garamond", serif;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.tech-grid{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.tech-grid img{
+    height: 6rem;
+}
+.heading-2{
+    font-family: "Cormorant Garamond", serif;
+    font-size: 2rem;
+}
+.paragraph{
+    font-size: 1.5rem;
+}
+.accordion{
+    margin-top: 3rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    width: 70rem;
+    font-size: 1rem;
+}
+.accordion-button.odd{
+    background-color: #7FA1C3;
+    color: white;
+}
+.accordion-button.even{
+    background-color: #F5EDED;
+}
+#experience{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+#projects{
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+.nav-filter a.nav-link{
+    color: black;
+}
+.nav-tabs .nav-link.active {
+    border-bottom: 2px solid #000; /* Bottom border */
+    box-shadow: 0 4px 2px -2px gray; /* Thin shadow */
+    transition: all 0.3s ease; /* Smooth transition for effect */
+}
+  
+.nav-tabs .nav-link {
+    transition: all 0.3s ease; /* Smooth transition for effect */
+}
+  
+.nav-tabs .nav-link:hover {
+    text-decoration: none; /* Remove underline on hover */
+}
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+  
+.card:hover {
+    transform: scale(1.05); /* Slight pop-up effect */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Slight shadow effect */
+}
+
+#contact{
+    padding-top: 4rem;
+    padding-bottom: 5.5rem;
+}
+#contact svg{
+    height: 2.5rem;
+}
+form{
+    background-color: #F5EDED;
+}
+form .btn{
+    margin-top: 1rem;
+    background-color: #7FA1C3;
+    border: none;
+    color: white;
+}  
+form textarea{
+    height: 10rem;
+}
+form .btn:hover{
+    background-color: #6482AD;
+    color: white;
+} 
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.fade-hidden {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 2s ease-out, transform 2s ease-out;
+}
+.fade-fadein {
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+@media (max-width: 1280px){
+    .accordion{
+        display: block;
+        width: auto;
+    }
+}
+
